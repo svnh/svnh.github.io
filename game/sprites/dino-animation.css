@@ -1,0 +1,401 @@
+.dino.stopped-e { background-position: -69632px 0px; }
+
+.dino.stopped-n { background-position: -69760px 0px; }
+
+.dino.stopped-ne { background-position: -69888px 0px; }
+
+.dino.stopped-nw { background-position: -70016px 0px; }
+
+.dino.stopped-s { background-position: -70144px 0px; }
+
+.dino.stopped-se { background-position: -70272px 0px; }
+
+.dino.stopped-sw { background-position: -70400px 0px; }
+
+.dino.stopped-w { background-position: -70528px 0px; }
+
+@-webkit-keyframes dino-running-e {
+ from { background-position: -61440px 0px; }
+ to { background-position: -62336px 0px; }
+}
+.dino.running-e { -webkit-animation: dino-running-e infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-n {
+ from { background-position: -62464px 0px; }
+ to { background-position: -63360px 0px; }
+}
+.dino.running-n { -webkit-animation: dino-running-n infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-ne {
+ from { background-position: -63488px 0px; }
+ to { background-position: -64384px 0px; }
+}
+.dino.running-ne { -webkit-animation: dino-running-ne infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-nw {
+ from { background-position: -64512px 0px; }
+ to { background-position: -65408px 0px; }
+}
+.dino.running-nw { -webkit-animation: dino-running-nw infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-s {
+ from { background-position: -65536px 0px; }
+ to { background-position: -66432px 0px; }
+}
+.dino.running-s { -webkit-animation: dino-running-s infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-se {
+ from { background-position: -66560px 0px; }
+ to { background-position: -67456px 0px; }
+}
+.dino.running-se { -webkit-animation: dino-running-se infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-sw {
+ from { background-position: -67584px 0px; }
+ to { background-position: -68480px 0px; }
+}
+.dino.running-sw { -webkit-animation: dino-running-sw infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-running-w {
+ from { background-position: -68608px 0px; }
+ to { background-position: -69504px 0px; }
+}
+.dino.running-w { -webkit-animation: dino-running-w infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-attacking-e {
+ from { background-position: 0px 0px; }
+ to { background-position: -1536px 0px; }
+}
+.dino.attacking-e { -webkit-animation: dino-attacking-e infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-n {
+ from { background-position: -1664px 0px; }
+ to { background-position: -3200px 0px; }
+}
+.dino.attacking-n { -webkit-animation: dino-attacking-n infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-ne {
+ from { background-position: -3328px 0px; }
+ to { background-position: -4864px 0px; }
+}
+.dino.attacking-ne { -webkit-animation: dino-attacking-ne infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-nw {
+ from { background-position: -4992px 0px; }
+ to { background-position: -6528px 0px; }
+}
+.dino.attacking-nw { -webkit-animation: dino-attacking-nw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-s {
+ from { background-position: -6656px 0px; }
+ to { background-position: -8192px 0px; }
+}
+.dino.attacking-s { -webkit-animation: dino-attacking-s infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-se {
+ from { background-position: -8320px 0px; }
+ to { background-position: -9856px 0px; }
+}
+.dino.attacking-se { -webkit-animation: dino-attacking-se infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-sw {
+ from { background-position: -9984px 0px; }
+ to { background-position: -11520px 0px; }
+}
+.dino.attacking-sw { -webkit-animation: dino-attacking-sw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-attacking-w {
+ from { background-position: -11648px 0px; }
+ to { background-position: -13184px 0px; }
+}
+.dino.attacking-w { -webkit-animation: dino-attacking-w infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-hit-e {
+ from { background-position: -13312px 0px; }
+ to { background-position: -14336px 0px; }
+}
+.dino.hit-e { -webkit-animation: dino-hit-e infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-n {
+ from { background-position: -14464px 0px; }
+ to { background-position: -15488px 0px; }
+}
+.dino.hit-n { -webkit-animation: dino-hit-n infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-ne {
+ from { background-position: -15616px 0px; }
+ to { background-position: -16640px 0px; }
+}
+.dino.hit-ne { -webkit-animation: dino-hit-ne infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-nw {
+ from { background-position: -16768px 0px; }
+ to { background-position: -17792px 0px; }
+}
+.dino.hit-nw { -webkit-animation: dino-hit-nw infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-s {
+ from { background-position: -17920px 0px; }
+ to { background-position: -18944px 0px; }
+}
+.dino.hit-s { -webkit-animation: dino-hit-s infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-se {
+ from { background-position: -19072px 0px; }
+ to { background-position: -20096px 0px; }
+}
+.dino.hit-se { -webkit-animation: dino-hit-se infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-sw {
+ from { background-position: -20224px 0px; }
+ to { background-position: -21248px 0px; }
+}
+.dino.hit-sw { -webkit-animation: dino-hit-sw infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-hit-w {
+ from { background-position: -21376px 0px; }
+ to { background-position: -22400px 0px; }
+}
+.dino.hit-w { -webkit-animation: dino-hit-w infinite 0.375s steps(8,end); }
+
+@-webkit-keyframes dino-looking-e {
+ from { background-position: -22528px 0px; }
+ to { background-position: -24064px 0px; }
+}
+.dino.looking-e { -webkit-animation: dino-looking-e infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-n {
+ from { background-position: -24192px 0px; }
+ to { background-position: -25728px 0px; }
+}
+.dino.looking-n { -webkit-animation: dino-looking-n infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-ne {
+ from { background-position: -25856px 0px; }
+ to { background-position: -27392px 0px; }
+}
+.dino.looking-ne { -webkit-animation: dino-looking-ne infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-nw {
+ from { background-position: -27520px 0px; }
+ to { background-position: -29056px 0px; }
+}
+.dino.looking-nw { -webkit-animation: dino-looking-nw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-s {
+ from { background-position: -29184px 0px; }
+ to { background-position: -30720px 0px; }
+}
+.dino.looking-s { -webkit-animation: dino-looking-s infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-se {
+ from { background-position: -30848px 0px; }
+ to { background-position: -32384px 0px; }
+}
+.dino.looking-se { -webkit-animation: dino-looking-se infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-sw {
+ from { background-position: -32512px 0px; }
+ to { background-position: -34048px 0px; }
+}
+.dino.looking-sw { -webkit-animation: dino-looking-sw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-looking-w {
+ from { background-position: -34176px 0px; }
+ to { background-position: -35712px 0px; }
+}
+.dino.looking-w { -webkit-animation: dino-looking-w infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-paused-e {
+ from { background-position: -35840px 0px; }
+ to { background-position: -37248px 0px; }
+}
+.dino.paused-e { -webkit-animation: dino-paused-e infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-n {
+ from { background-position: -37376px 0px; }
+ to { background-position: -38784px 0px; }
+}
+.dino.paused-n { -webkit-animation: dino-paused-n infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-ne {
+ from { background-position: -38912px 0px; }
+ to { background-position: -40320px 0px; }
+}
+.dino.paused-ne { -webkit-animation: dino-paused-ne infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-nw {
+ from { background-position: -40448px 0px; }
+ to { background-position: -41856px 0px; }
+}
+.dino.paused-nw { -webkit-animation: dino-paused-nw infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-s {
+ from { background-position: -41984px 0px; }
+ to { background-position: -43392px 0px; }
+}
+.dino.paused-s { -webkit-animation: dino-paused-s infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-se {
+ from { background-position: -43520px 0px; }
+ to { background-position: -44928px 0px; }
+}
+.dino.paused-se { -webkit-animation: dino-paused-se infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-sw {
+ from { background-position: -45056px 0px; }
+ to { background-position: -46464px 0px; }
+}
+.dino.paused-sw { -webkit-animation: dino-paused-sw infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-paused-w {
+ from { background-position: -46592px 0px; }
+ to { background-position: -48000px 0px; }
+}
+.dino.paused-w { -webkit-animation: dino-paused-w infinite 0.5s steps(11,end); }
+
+@-webkit-keyframes dino-roaring-e {
+ from { background-position: -48128px 0px; }
+ to { background-position: -49664px 0px; }
+}
+.dino.roaring-e { -webkit-animation: dino-roaring-e infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-n {
+ from { background-position: -49792px 0px; }
+ to { background-position: -51328px 0px; }
+}
+.dino.roaring-n { -webkit-animation: dino-roaring-n infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-ne {
+ from { background-position: -51456px 0px; }
+ to { background-position: -52992px 0px; }
+}
+.dino.roaring-ne { -webkit-animation: dino-roaring-ne infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-nw {
+ from { background-position: -53120px 0px; }
+ to { background-position: -54656px 0px; }
+}
+.dino.roaring-nw { -webkit-animation: dino-roaring-nw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-s {
+ from { background-position: -54784px 0px; }
+ to { background-position: -56320px 0px; }
+}
+.dino.roaring-s { -webkit-animation: dino-roaring-s infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-se {
+ from { background-position: -56448px 0px; }
+ to { background-position: -57984px 0px; }
+}
+.dino.roaring-se { -webkit-animation: dino-roaring-se infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-sw {
+ from { background-position: -58112px 0px; }
+ to { background-position: -59648px 0px; }
+}
+.dino.roaring-sw { -webkit-animation: dino-roaring-sw infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-roaring-w {
+ from { background-position: -59776px 0px; }
+ to { background-position: -61312px 0px; }
+}
+.dino.roaring-w { -webkit-animation: dino-roaring-w infinite 0.5416666666666666s steps(12,end); }
+
+@-webkit-keyframes dino-falling-e {
+ from { background-position: -70656px 0px; }
+ to { background-position: -71936px 0px; }
+}
+.dino.falling-e { -webkit-animation: dino-falling-e  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-n {
+ from { background-position: -72064px 0px; }
+ to { background-position: -73344px 0px; }
+}
+.dino.falling-n { -webkit-animation: dino-falling-n  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-ne {
+ from { background-position: -73472px 0px; }
+ to { background-position: -74752px 0px; }
+}
+.dino.falling-ne { -webkit-animation: dino-falling-ne  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-nw {
+ from { background-position: -74880px 0px; }
+ to { background-position: -76160px 0px; }
+}
+.dino.falling-nw { -webkit-animation: dino-falling-nw  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-s {
+ from { background-position: -76288px 0px; }
+ to { background-position: -77568px 0px; }
+}
+.dino.falling-s { -webkit-animation: dino-falling-s  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-se {
+ from { background-position: -77696px 0px; }
+ to { background-position: -78976px 0px; }
+}
+.dino.falling-se { -webkit-animation: dino-falling-se  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-sw {
+ from { background-position: -79104px 0px; }
+ to { background-position: -80384px 0px; }
+}
+.dino.falling-sw { -webkit-animation: dino-falling-sw  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-falling-w {
+ from { background-position: -80512px 0px; }
+ to { background-position: -81792px 0px; }
+}
+.dino.falling-w { -webkit-animation: dino-falling-w  0.4583333333333333s steps(10,end); }
+
+@-webkit-keyframes dino-walking-e {
+ from { background-position: -81920px 0px; }
+ to { background-position: -82816px 0px; }
+}
+.dino.walking-e { -webkit-animation: dino-walking-e infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-n {
+ from { background-position: -82944px 0px; }
+ to { background-position: -83840px 0px; }
+}
+.dino.walking-n { -webkit-animation: dino-walking-n infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-ne {
+ from { background-position: -83968px 0px; }
+ to { background-position: -84864px 0px; }
+}
+.dino.walking-ne { -webkit-animation: dino-walking-ne infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-nw {
+ from { background-position: -84992px 0px; }
+ to { background-position: -85888px 0px; }
+}
+.dino.walking-nw { -webkit-animation: dino-walking-nw infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-s {
+ from { background-position: -86016px 0px; }
+ to { background-position: -86912px 0px; }
+}
+.dino.walking-s { -webkit-animation: dino-walking-s infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-se {
+ from { background-position: -87040px 0px; }
+ to { background-position: -87936px 0px; }
+}
+.dino.walking-se { -webkit-animation: dino-walking-se infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-sw {
+ from { background-position: -88064px 0px; }
+ to { background-position: -88960px 0px; }
+}
+.dino.walking-sw { -webkit-animation: dino-walking-sw infinite 0.3333333333333333s steps(7,end); }
+
+@-webkit-keyframes dino-walking-w {
+ from { background-position: -89088px 0px; }
+ to { background-position: -89984px 0px; }
+}
+.dino.walking-w { -webkit-animation: dino-walking-w infinite 0.3333333333333333s steps(7,end); }
+
+

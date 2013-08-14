@@ -1,0 +1,98 @@
+body {
+  overflow: hidden;
+}
+
+#game {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ground {
+  position: absolute;
+  background: url("http://imgs.xkcd.com/comics/substitute.png");
+  background-repeat: no-repeat;
+	top: 10%;
+  width: 8192px;
+	height: 8192px;
+  left: 32%;
+	z-index: 0;
+}
+
+div {
+  z-index: 2;
+  font-family: 'Source Code Pro', sans-serif;
+  position: relative;
+}
+
+#name {
+  font-size: 300%;
+}
+
+#title {
+  left: 20px;
+  font-size: 150%;
+  color: grey;
+}
+
+#description {
+  left: 20px;
+}
+
+span {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.keyboard {
+  display: none;
+}
+
+#keyboard {
+  display: block;
+  top: 87%;
+}
+
+img {
+	z-index: 2;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+}
+
+#play{
+  top:50%;
+  left:50%;
+  height: 100px;
+  width: 100px;
+}
+
+#linkedIn {
+  top: 36%;
+}
+
+#octocat {
+  top: 43%;
+}
+
+#tumblr {
+  top: 50%;
+}
+
+#chicken {
+  top: 57%;
+}
+
+.player {
+	position: absolute;
+	z-index: 2;
+}
+
+.dino {
+	background: url('sprites/dino-green/dino-sprite.png');
+	width: 128px;
+	height: 128px;
+}
