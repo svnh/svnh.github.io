@@ -12,7 +12,7 @@ body {
 
 .ground {
   position: absolute;
-  background: url("http://imgs.xkcd.com/comics/substitute.png");
+/*   background: url("http://imgs.xkcd.com/comics/substitute.png"); */
   background-repeat: no-repeat;
 	top: 10%;
   width: 8192px;
